@@ -142,7 +142,9 @@ async function main(): Promise<void> {
       format: "JSONEachRow",
     });
     const ocsfRows = (await ocsf.json()) as Array<Record<string, unknown>>;
-    console.log(`[azure-cost-live] governance_ocsf_events rows: ${ocsfRows.length}`);
+    console.log(
+      `[azure-cost-live] governance_ocsf_events rows: ${ocsfRows.length}`,
+    );
     for (const row of ocsfRows) {
       console.log(`  ${JSON.stringify(row)}`);
     }
