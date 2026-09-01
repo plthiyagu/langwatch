@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.12.0](https://github.com/langwatch/langwatch/compare/typescript-sdk@v1.11.0...typescript-sdk@v1.12.0) (2026-09-01)
+
+
+### Features
+
+* **query:** one door for raw LangWatchQL — REST at /api/v1/query, old routes removed ([#7611](https://github.com/langwatch/langwatch/issues/7611)) ([f37e9cc](https://github.com/langwatch/langwatch/commit/f37e9ccc7240d8fa0229be33b47e7a042981112e))
+
+
+### Documentation
+
+* **agent-testing:** connect from a function beside your service startup ([#7698](https://github.com/langwatch/langwatch/issues/7698)) ([60e7d4c](https://github.com/langwatch/langwatch/commit/60e7d4cedd0b0d70ed271891b24b507a0258a05e))
+
 ## [1.11.0](https://github.com/langwatch/langwatch/compare/typescript-sdk@v1.10.0...typescript-sdk@v1.11.0) (2026-08-31)
 
 
